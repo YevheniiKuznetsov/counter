@@ -1,0 +1,385 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../files/fonts/Gotham-Black.eot");
+  src: local("Trade Gothic LT Black"), local("Gotham-Black"), url("../files/fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../files/fonts/Gotham-Black.woff") format("woff"), url("../files/fonts/Gotham-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../files/fonts/Gotham-Bold.eot");
+  src: local("Trade Gothic LT Bold"), local("Gotham-Bold"), url("../files/fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../files/fonts/Gotham-Bold.woff") format("woff"), url("../files/fonts/Gotham-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../files/fonts/Gotham-Medium.eot");
+  src: local("Trade Gothic LT Medium"), local("Gotham-Medium"), url("../files/fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("../files/fonts/Gotham-Medium.woff") format("woff"), url("../files/fonts/Gotham-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../files/fonts/Gotham-Light.eot");
+  src: local("Trade Gothic LT Light"), local("Gotham-Light"), url("../files/fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("../files/fonts/Gotham-Light.woff") format("woff"), url("../files/fonts/Gotham-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../files/fonts/Gotham-Thin.eot");
+  src: local("Trade Gothic LT Thin"), local("Gotham-Thin"), url("../files/fonts/Gotham-Thin.eot?#iefix") format("embedded-opentype"), url("../files/fonts/Gotham-Thin.woff") format("woff"), url("../files/fonts/Gotham-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Gotham", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h2 span {
+  color: #000;
+}
+
+.site-wrapper {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1504px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.container2 {
+  max-width: 891px;
+  margin: 0 auto;
+}
+
+.price-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 314px;
+}
+
+.price-element .result-price .price-element-only {
+  display: block;
+  margin-bottom: 10px;
+  color: #f8d000;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.price-element .result-price .result-price-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.price-element .result-price .result-price-number span {
+  display: block;
+  color: #fff;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 325;
+  line-height: 90%;
+}
+
+.price-element .result-price .result-price-number span:nth-child(2) {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.price-element .result-price .result-price-number span:last-child {
+  font-weight: 500;
+}
+
+.price-element .result-price-description {
+  color: #757575;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 325;
+  line-height: normal;
+}
+
+@-webkit-keyframes pressAnimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@keyframes pressAnimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+.total-members {
+  position: relative;
+}
+
+.total-members-title {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 325;
+  line-height: normal;
+}
+
+.total-members-count {
+  margin-bottom: 2px;
+  padding-left: 32%;
+  color: #000;
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 110%;
+}
+
+.total-members-count-desc {
+  margin-bottom: 7px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.total-members-experiencing {
+  position: relative;
+  z-index: 100;
+  color: #000;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.total-members-footer-text {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1500px) {
+  h2 {
+    font-size: 54px;
+  }
+
+  .total-members-title {
+    font-size: 27px;
+  }
+
+  .total-members-count-container {
+    padding-left: 50%;
+  }
+
+  .total-members-count {
+    padding-left: 0;
+    font-size: 112px;
+    -webkit-transform: translate(-180px, 0);
+        -ms-transform: translate(-180px, 0);
+            transform: translate(-180px, 0);
+  }
+
+  .total-members-count-desc {
+    font-size: 18px;
+  }
+
+  .total-members-experiencing {
+    font-size: 45px;
+  }
+
+  .total-members-footer img {
+    width: 660px;
+  }
+
+  .total-members-footer-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .price-element {
+    max-width: 210px;
+    font-size: 59px;
+  }
+
+  .price-element .result-price .price-element-only {
+    margin-bottom: 4px;
+    color: #f8d000;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .price-element .result-price .result-price-number {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  .price-element .result-price .result-price-number span:first-child {
+    font-size: 26px;
+  }
+
+  .price-element .result-price .result-price-number span:nth-child(2) {
+    font-size: 30px;
+  }
+
+  .price-element .result-price .result-price-number span:last-child {
+    font-size: 26px;
+  }
+
+  .price-element .result-price-description {
+    font-size: 14px;
+  }
+
+  .total-members-title {
+    font-size: 16px;
+  }
+
+  .total-members-count {
+    font-size: 94px;
+    -webkit-transform: translate(-160px, 0);
+        -ms-transform: translate(-160px, 0);
+            transform: translate(-160px, 0);
+  }
+
+  .total-members-count-desc {
+    font-size: 14px;
+  }
+
+  .total-members-experiencing {
+    font-size: 30px;
+  }
+
+  .total-members-footer {
+    -webkit-transform: translate(0, -11px);
+        -ms-transform: translate(0, -11px);
+            transform: translate(0, -11px);
+  }
+
+  .total-members-footer img {
+    width: 319px;
+  }
+
+  .total-members-footer-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .total-members {
+    padding: 19px 0 25px;
+  }
+
+  .total-members-title {
+    margin-bottom: 23px;
+  }
+
+  .total-members-count {
+    margin-bottom: 42px;
+    font-size: 82px;
+    line-height: 90%;
+    -webkit-transform: translate(-140px, 0);
+        -ms-transform: translate(-140px, 0);
+            transform: translate(-140px, 0);
+  }
+
+  .total-members-count-desc {
+    margin-bottom: 4px;
+  }
+
+  .total-members-footer {
+    -webkit-transform: translate(0, -8px);
+        -ms-transform: translate(0, -8px);
+            transform: translate(0, -8px);
+  }
+
+  .total-members-footer img {
+    width: 260px;
+    margin-bottom: 10px;
+  }
+}
